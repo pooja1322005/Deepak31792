@@ -36,8 +36,8 @@ public class Bodmas {
 		int sumresult1=ref_var.sum(sumresult, 2);
 		int substractionresult=ref_var.subs(sumresult1,2);
 		int multplicationresult=ref_var.multi(substractionresult,2);
-		    int Finalresult=ref_var.div(multiplivationresult, 2);
-		    System.out.println("The Final result is"+Finalresult);
+		    int Finalresult=ref_var.div(multplicationresult, 2);
+		    System.out.println("The Final result is "+Finalresult);
 	}
 }
 	
